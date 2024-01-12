@@ -9,11 +9,13 @@
 .btn-primary {
   border: none;
   padding: 20px 25px;
+  margin: 32px auto;
   font-size: 1.2rem;
   font-weight: 600;
   color: #fff;
   border-radius: 8px;
   background: #ff900e;
+  cursor: pointer;
 }
 /* header styles */
 header {
@@ -57,4 +59,27 @@ nav li a {
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
+}
+.banner img{
+    width: 100%;
+}
+
+/* responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* tablet devices */
+@media screen and (min-width: 577px) and (max-width: 992px){
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
