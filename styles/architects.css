@@ -22,7 +22,12 @@ header {
   background: rgba(255, 144, 14, 0.1);
   padding: 50px 240px;
 }
-nav,
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 110px;
+}
 nav > ul {
   display: flex;
   justify-content: space-between;
@@ -54,6 +59,7 @@ nav li a {
     color: #131313;
     font-size: 4rem;
     font-weight: 700;
+    margin-bottom: 32px;
 }
 .banner-description{
     color: #727272;
@@ -72,6 +78,7 @@ nav li a {
     }
     nav{
         flex-direction: column;
+        gap: 30px;
     }
 }
 /* tablet devices */
@@ -81,5 +88,40 @@ nav li a {
     }
     nav{
         flex-direction: column;
+        gap: 30px;
     }
+    nav li{
+        margin-right: 50px;
+    }
+}
+
+/* main styles  */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #FF900E;
+}
+.span-1{
+  color: #727272;
+  font-weight: 500;
+}
+.span-2{
+  color: #131313;
 }
