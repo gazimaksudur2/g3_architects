@@ -103,7 +103,9 @@ main {
 .span-2 {
   color: #131313;
 }
+
 /* sponsors styles */
+
 .features{
   margin: 8.5rem 15rem;
 }
@@ -137,11 +139,14 @@ main {
   height: 6rem;
   background-color: #FF900E;
   border-radius: 8px;
-  /* position: relative; */
+  position: relative;
+  bottom: 130px;
+  /* left: 50px; */
 }
 .feature-img img{
-  max-height: 100%;
-  margin: 0;
+  height: 90%;
+  margin-left: 75px;
+  /* margin: 0; */
   /* position: absolute; */
 }
 .ten-year-badge h2{
@@ -201,8 +206,9 @@ main {
 }
 /* footer style  */
 footer {
-  margin: 8.4rem 12rem;
-  padding: 2.5rem 25rem;
+  margin: 8.4rem 9rem;
+  text-align: center;
+  padding: 2.5rem 20rem;
   border-radius: 8px;
   background: #fff4e7;
 }
@@ -245,11 +251,37 @@ footer {
     padding-left: 1rem;
     padding-right: 1.5px;
   }
+  .facts > p{
+    padding-right: 1.5rem;
+  }
   .facts-card-container {
     padding-right: 30px;
   }
   .sponsors{
     margin: 2rem auto;
+    padding: 5px;
+  }
+  .feature-img img{
+    height: 50%;
+    margin-left: 30px;
+  }
+  .ten-year-badge{
+    padding: .6rem;
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+    background-color: #FF900E;
+    border-radius: 8px;
+    position: relative;
+    bottom: 60px;
+  }
+  .ten-year-badge h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .ten-year-badge p{
+    font-size: .6rem;
+    font-weight: 500;
   }
   footer{
     margin: 0.5rem;
