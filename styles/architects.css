@@ -161,6 +161,7 @@ main {
 /* Facts section style  */
 .facts {
   margin: 180px auto;
+  padding: 2rem;
   width: 100%;
 }
 .facts-card-container {
@@ -327,11 +328,12 @@ footer {
   .teams-content,
   .facts-card-container .card,
   .facts {
-    margin: 2rem 0;
+    margin: 1rem 0;
     padding-left: 1rem;
     padding-right: 1.5px;
   }
   .facts-card-container {
+    margin: 0;
     padding-right: 30px;
   }
   .sponsors{
